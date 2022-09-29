@@ -8,7 +8,6 @@
 
 */
 
-@import url("https://fonts.googleapis.com/css?family=Hepta+Slab|Staatliches&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
@@ -17,6 +16,7 @@
 @import url('xtext-stroke.css');
 @import url('stroke-shadow.css');
 @import url('scroll-to-top.css');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;400&display=swap');
 /*
 
 X-Small devices (portrait phones, less than 576px) 
@@ -55,21 +55,21 @@ html {
 */
 
 :root {
-  --primary-text-color: #222;
+  --primary-text-color: rgb(0, 9, 31);
   --accent-color: #555;
   --hyperlink-color: #333;
-  --hyperlink-alternate-color: orangered;
+  --hyperlink-alternate-color: rgb(166, 58, 19);
   --hover-color: #111;
   --body-typeface: "Inter", sans-serif;
-  --heading-typeface: "Staatliches", cursive;
+  --heading-typeface: "Noto+Sans+Mono", cursive;
   --off-white: #f8f8ff;
   --isabelline: #f4f0ec;
   --baby-powder: #fefefa;
   --alice-blue: #f0f8ff;
   --alabaster: #f2f0e6;
   --floral-white: #fffaf0;
-  --background-color: #f5f5f5;
-  --alt-background-color: black;
+  --background-color: #e3e6d8;
+  --alt-background-color: rgb(62, 40, 40);
   --text-selection-background-color: #555;
   --base-color: 0;
   --color-lightest: hsla(var(--base-color), 1%, 85%, 100%);
@@ -279,7 +279,7 @@ p {
   flex-direction: column;
   padding: 1rem;
   text-align: center;
-  color: white;
+  color: rgb(211, 119, 119);
 }
 
 .hero-footer-navigation {
@@ -292,7 +292,7 @@ p {
 /* This part isn't required */
 
 .projects {
-  background: #111;
+  background: rgb(255, 138, 138);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -318,7 +318,7 @@ p {
   grid-template-columns: 1fr;
   grid-gap: 3rem;
   min-height: 100vh;
-  background: #f5f5f5;
+  background: #ffcbcb;
   padding: 1rem 1rem;
 }
 
@@ -367,7 +367,7 @@ p {
 .project-aside {
   width: 100%;
   color: white;
-  background: orangered;
+  background: rgb(255, 208, 191);
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -401,9 +401,9 @@ p {
 .project-details {
   width: 100%;
   background-image: linear-gradient(-225deg,
-      #ff057c 0%,
-      #8d0b93 50%,
-      #321575 100%);
+      #ffdaec 0%,
+      #fcc2ff 50%,
+      #322e3c 100%);
   padding: 1rem;
 }
 
